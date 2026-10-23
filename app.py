@@ -852,5 +852,5 @@ if st.session_state.history:
     )
 
 if st.session_state.pipeline:
-    st.subheader("Заказы в пути")
+    st.subheader("Заказы в пути.")
     st.dataframe(pd.DataFrame(st.session_state.pipeline), use_container_width=True)
